@@ -111,13 +111,15 @@ article>*:not(img) {
 
 .article-body>p:first-child::first-letter {
   font-size: 5em;
-  float: left;
   line-height: 1.1;
+  font-weight: 700;
+  float: left;
   margin-right: 0.5rem;
 }
 
 .article-body>p:first-child::first-line {
-  font-weight: 523;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 @media (min-width: 60em) {
